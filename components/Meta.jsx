@@ -3,7 +3,7 @@ import Head from "next/head";
 function Meta() {
   return (
     <Head>
-      <title>Hey</title>
+      <title>Gradienter</title>
       <link
         rel="shortcut icon"
         href="./assests/favicon.ico"
