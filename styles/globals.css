@@ -1,0 +1,15 @@
+body {
+  background-color: #fafafa;
+  background: url("../public/assests/blackgrit.png");
+  background-size: 50%;
+}
+
+.grainy {
+  background: url("../public/assests/grains.png");
+  background-color: #fff;
+}
+
+.header {
+  background: url("../public/assests/grains.png");
+}
+/*# sourceMappingURL=globals.css.map */

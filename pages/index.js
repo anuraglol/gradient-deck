@@ -1,10 +1,11 @@
-import Head from "next/head";
+import { Meta, Gradients, Header } from "../components";
 
 export default function Home() {
   return (
-    <div>
-      hello world
-      <div></div>
-    </div>
+    <>
+      <Meta />
+      <Header />
+      <Gradients />
+    </>
   );
 }
