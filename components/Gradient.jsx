@@ -1,7 +1,7 @@
 import { toast, Toaster } from "react-hot-toast";
 import { FiCopy } from "react-icons/fi";
 import copy from "copy-to-clipboard";
-import { Button } from "@mui/material";
+import Button from "@mui/material/Button";
 
 export default function Gradient(props) {
   const copyText = () => {
@@ -12,9 +12,9 @@ export default function Gradient(props) {
   };
 
   return (
-    <Button variant="outlined">
+    <Button>
       <div
-        className="p-6 grainy w-48 rounded shadow-sm m-4 flex flex-col justify-center cursor-pointer hover:shadow-md"
+        className="m-2 p-6 grainy w-48 rounded shadow-sm flex flex-col justify-center cursor-pointer hover:shadow-md"
         onClick={copyText}
       >
         <div
