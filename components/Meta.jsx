@@ -3,7 +3,7 @@ import Head from "next/head";
 function Meta() {
   return (
     <Head>
-      <title>Gradienter</title>
+      <title>Gradient Deck - Find Awesome Gradients!!</title>
       <link
         rel="shortcut icon"
         href="./assests/favicon.ico"

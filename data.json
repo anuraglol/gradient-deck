@@ -1,6 +1,8 @@
-{
-  "gradients": [
-    ["#fff", "#fafafa"],
-    ["#111", "020202"]
-  ]
-}
+[
+  {
+    "colors": ["#3CA55C", "#B5AC49"]
+  },
+  {
+    "colors": ["#fff", "#fafafa"]
+  }
+]
