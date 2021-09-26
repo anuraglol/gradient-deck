@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mui/material": "^5.0.1",
     "copy-to-clipboard": "^3.3.1",
     "next": "latest",
     "react": "^17.0.2",
