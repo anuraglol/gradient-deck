@@ -1,34 +1,40 @@
-import auth from "../firebase.config";
-import { GoogleAuthProvider, signInWithRedirect } from "firebase/auth";
+import { auth } from "../pages/firebase";
+import { GoogleAuthProvider, signInWithPopup, signOut } from "@firebase/auth";
 import { useAuthState } from "react-firebase-hooks/auth";
+// import Button from "@mui/material/Button";
 
-export default function Auth() {
-  const [user] = useAuthState(auth);
-
-  const SignIn = () => {
-    const signIn = () => {
-      const provider = new GoogleAuthProvider(auth);
-      signInWithRedirect(provider);
-    };
-    return (
-      <button
-        className="p-2 bg-[#020202] text-white font-poppins font-medium"
-        onClick={signIn}
-      >
-        Sign In With Google
-      </button>
-    );
+const SignIn = () => {
+  const logMeIn = () => {
+    const provider = new GoogleAuthProvider(auth);
+    signInWithPopup(auth, provider);
   };
+  return (
+    <button
+      className="p-3  bg-[#020202] text-white font-poppins font-medium rounded shadow"
+      onClick={logMeIn}
+    >
+      Sign In With Google
+    </button>
+  );
+};
 
-  const SignOut = () => {
-    return (
+const SignOut = () => {
+  const out = () => {
+    auth.signOut();
+  };
+  return (
+    <div>
       <button
-        className="p-2 bg-[#020202] text-white font-poppins font-medium"
-        onClick={auth.signOut()}
+        className="p-3 bg-[#020202] text-white font-poppins font-medium rounded shadow"
+        onClick={out}
       >
         Sign Out
       </button>
-    );
-  };
-  return;
+    </div>
+  );
+};
+export default function Auth() {
+  const [user] = useAuthState(auth);
+
+  return <>{user ? <SignOut /> : <SignIn />}</>;
 }
