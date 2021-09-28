@@ -1,14 +1,13 @@
 import { toast, Toaster } from "react-hot-toast";
 import { FiCopy } from "react-icons/fi";
-import copy from "copy-to-clipboard";
 import Button from "@mui/material/Button";
 
 export default function Gradient(props) {
   const copyText = () => {
     toast.success("Copied!");
 
-    let code = `linear-gradient(${props.color1}, ${props.color2})`;
-    copy(code);
+    let code = `${props.code}`;
+    navigator.clipboard.writeText(code);
   };
 
   return (
@@ -20,7 +19,7 @@ export default function Gradient(props) {
         <div
           className="p-6 rounded"
           style={{
-            background: `linear-gradient(${props.color1}, ${props.color2})`,
+            background: `${props.code}`,
           }}
         ></div>
         <div className="w-full flex justify-center mt-4">

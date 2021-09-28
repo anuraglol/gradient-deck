@@ -1,8 +1,6 @@
-[
-  {
-    "colors": ["#3CA55C", "#B5AC49"]
-  },
-  {
-    "colors": ["#fff", "#fafafa"]
-  }
-]
+{
+  "colors": [
+    "linear-gradient(135deg, #020202, #111)",
+    "linear-gradient(180deg, #d309e1 0%, rgb(156, 26, 255) 100%)"
+  ]
+}
