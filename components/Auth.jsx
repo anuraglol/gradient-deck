@@ -1,7 +1,6 @@
 import { auth } from "../pages/firebase";
 import { GoogleAuthProvider, signInWithPopup, signOut } from "@firebase/auth";
 import { useAuthState } from "react-firebase-hooks/auth";
-// import Button from "@mui/material/Button";
 
 const SignIn = () => {
   const logMeIn = () => {
