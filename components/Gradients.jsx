@@ -5,9 +5,8 @@ import { useState } from "react";
 export default function Gradients() {
   return (
     <div>
-      {/* <Gradient color1="#fafafa" color2="#fff" /> */}
       {data.colors.map((d) => (
-        <Gradient code={d} />
+        <Gradient code={d} key={d} />
       ))}
     </div>
   );

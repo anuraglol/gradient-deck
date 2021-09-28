@@ -1,6 +1,6 @@
 {
   "colors": [
-    "linear-gradient(135deg, #020202, #111)",
-    "linear-gradient(180deg, #d309e1 0%, rgb(156, 26, 255) 100%)"
+    "linear-gradient(180deg, #d309e1 0%, rgb(156, 26, 255) 100%)",
+    "linear-gradient(180deg, #ff008c 0%, rgb(211, 9, 225) 100%)"
   ]
 }

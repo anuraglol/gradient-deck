@@ -5,25 +5,23 @@ import Button from "@mui/material/Button";
 export default function Gradient(props) {
   const copyText = () => {
     toast.success("Copied!");
-
-    let code = `${props.code}`;
-    navigator.clipboard.writeText(code);
+    navigator.clipboard.writeText(props.code);
   };
 
   return (
     <Button>
       <div
-        className="m-2 p-6 grainy w-48 rounded shadow-sm flex flex-col justify-center cursor-pointer hover:shadow-md"
+        className="m-2 p-4 grainy w-48 h-48 rounded shadow-sm flex flex-col justify-center cursor-pointer hover:shadow-md"
         onClick={copyText}
       >
         <div
-          className="p-6 rounded"
+          className="p-14 rounded"
           style={{
             background: `${props.code}`,
           }}
         ></div>
         <div className="w-full flex justify-center mt-4">
-          <FiCopy size="30" />
+          <FiCopy size="25" />
         </div>
         <Toaster />
       </div>
