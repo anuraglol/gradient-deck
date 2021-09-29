@@ -1,6 +1,7 @@
 import { auth } from "../pages/firebase";
 import { GoogleAuthProvider, signInWithPopup, signOut } from "@firebase/auth";
 import { useAuthState } from "react-firebase-hooks/auth";
+import { FcGoogle } from 'react-icons/fc'
 
 const SignIn = () => {
   const logMeIn = () => {
@@ -9,10 +10,11 @@ const SignIn = () => {
   };
   return (
     <button
-      className="p-3  bg-[#020202] text-white font-poppins font-medium rounded shadow"
+      className="p-3 flex flex-row items-center bg-[#020202] text-white font-poppins font-medium rounded shadow hover:drop-shadow-xl"
       onClick={logMeIn}
     >
-      Sign In With Google
+      <FcGoogle size="25" />
+      <span className="px-2">Sign In With Google</span>
     </button>
   );
 };
@@ -24,7 +26,7 @@ const SignOut = () => {
   return (
     <div>
       <button
-        className="p-3 bg-[#020202] text-white font-poppins font-medium rounded shadow"
+        className="p-3 bg-[#020202] text-white font-poppins font-medium rounded shadow hover:drop-shadow-xl"
         onClick={out}
       >
         Sign Out

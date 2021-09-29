@@ -6,9 +6,14 @@ body {
 
 .grainy {
   background: url("../public/assests/grains.png");
-  background-color: #F0F3BD;
+  background-color: #f0f3bd;
 }
 
 .header {
   background: url("../public/assests/grains.png");
+}
+
+.logo:hover {
+  background-image: url("../public/assests/blackgrit.png");
+  background-size: 50%;
 }

@@ -6,7 +6,7 @@ function Meta() {
       <title>Gradient Deck - Find Awesome Gradients!!</title>
       <link
         rel="shortcut icon"
-        href="./assests/favicon.svg"
+        href="./assests/favicon.ico"
         type="image/x-icon"
       />
       <link
