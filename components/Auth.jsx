@@ -9,8 +9,8 @@ export default function Auth() {
 
   const SignIn = () => {
     const logMeIn = () => {
-      // const provider = new GoogleAuthProvider(auth);
-      // signInWithPopup(auth, provider);
+      const provider = new GoogleAuthProvider(auth);
+      signInWithPopup(auth, provider);
     };
 
     return (
