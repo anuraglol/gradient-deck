@@ -9,22 +9,24 @@ export default function Gradient(props) {
   };
 
   return (
-    <Button>
-      <div
-        className="m-2 p-4 grainy w-48 h-48 rounded shadow-sm flex flex-col justify-center cursor-pointer hover:shadow-md"
-        onClick={copyText}
-      >
-        <div
-          className="p-14 rounded"
-          style={{
-            background: `${props.code}`,
-          }}
-        ></div>
-        <div className="w-full flex justify-center mt-4">
-          <FiCopy size="25" />
+    <>
+      <Button>
+        <div className="m-2 p-4 grainy w-48 h-48 rounded shadow-sm flex flex-col justify-center cursor-pointer hover:shadow-md">
+          <div
+            className="p-14 rounded"
+            style={{
+              background: `${props.code}`,
+            }}
+          ></div>
+
+          <div className="flex w-full flex-row items-center justify-center mt-2">
+            <Button className="text-[#020202]" onClick={copyText}>
+              <FiCopy size="25" />
+            </Button>
+          </div>
         </div>
-        <Toaster />
-      </div>
-    </Button>
+      </Button>
+      <Toaster />
+    </>
   );
 }
