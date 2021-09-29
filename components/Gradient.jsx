@@ -11,9 +11,9 @@ export default function Gradient(props) {
   return (
     <>
       <Button variant="text" onClick={copyText}>
-        <div className="m-2 p-4 grainy w-48 h-48 rounded shadow-sm flex flex-col justify-center cursor-pointer hover:shadow-md">
+        <div className="m-2 p-5 grainy w-52 h-52 rounded shadow-sm flex flex-col justify-center cursor-pointer hover:shadow-md">
           <div
-            className="p-14 rounded"
+            className="p-16 rounded"
             style={{
               // background: `${props.code}`,
               background: props.code,

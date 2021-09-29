@@ -3,6 +3,12 @@
     "linear-gradient(180deg, #d309e1 0%, rgb(156, 26, 255) 100%)",
     "linear-gradient(180deg, #ff008c 0%, rgb(211, 9, 225) 100%)",
     "linear-gradient(180deg, #0055ff 0%, rgb(0, 153, 255) 100%)",
-    "linear-gradient(90deg, hsla(333, 100%, 53%, 1), 0%, hsla(33, 94%, 57%, 1) 100%)"
+    "linear-gradient(90deg, hsla(333, 100%, 53%, 1), 0%, hsla(33, 94%, 57%, 1) 100%)",
+    "linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%)",
+    "linear-gradient(to bottom right, #3e34e2, #8b70c7)",
+    "linear-gradient(to bottom right, #e41369, #1b2e64)",
+    "linear-gradient(to bottom right, #44c160, #99eb17)",
+    "linear-gradient(to bottom right, #b731f3, #0d4350)",
+    "linear-gradient(to bottom right, #e81aa7, #b7ea63)"
   ]
 }

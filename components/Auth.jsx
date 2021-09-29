@@ -15,7 +15,7 @@ export default function Auth() {
 
     return (
       <button
-        className="p-3 flex flex-row items-center bg-[#020202] text-white font-poppins font-medium rounded shadow hover:drop-shadow-xl"
+        className="w-56 p-3 flex flex-row items-center bg-[#020202] text-white font-poppins font-medium rounded shadow hover:drop-shadow-xl"
         onClick={logMeIn}
       >
         <FcGoogle size="25" />
