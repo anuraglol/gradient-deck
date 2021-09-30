@@ -21,3 +21,16 @@ body {
   background-image: url("../public/assests/blackgrit.png");
   background-size: 50%;
 }
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffc600;
+  border-radius: 1rem;
+}

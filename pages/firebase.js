@@ -2,7 +2,7 @@ import { initializeApp } from "@firebase/app";
 import { getFirestore } from "@firebase/firestore";
 import { getAuth } from "@firebase/auth";
 
-const firebaseConfig = {
+const firebaseConfig= {
   apiKey: "AIzaSyCwW6Xt6CAlEzs4wNN7jK8-EdQQpyxMXu8",
   authDomain: "gradient-deck.firebaseapp.com",
   projectId: "gradient-deck",
