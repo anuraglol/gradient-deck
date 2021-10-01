@@ -1,3 +1,7 @@
+* {
+  @apply font-poppins;
+}
+
 .main {
   background-color: #fafafa;
   background: url("../public/assests/blackgrit.png");
