@@ -2,13 +2,13 @@ import { FiCopy } from "react-icons/fi";
 import { AiOutlineHeart } from "react-icons/ai";
 import { useState } from "react";
 import { Button } from "@mui/material";
-import toast from "react-hot-toast";
+import toast, { Toaster } from "react-hot-toast";
 
 export default function Gradient(props) {
   const [isLiked, setIsLiked] = useState(false);
 
   const copyText = () => {
-    // toast.success("Copied to Clipbaord!!");
+    toast.success("Copied to Clipbaord!!");
     navigator.clipboard.writeText(props.code);
   };
 
@@ -18,6 +18,7 @@ export default function Gradient(props) {
 
   return (
     <>
+    
       <div className="grid justify-center">
         <div>
           <Button variant="text" onClick={copyText}>

@@ -1,6 +1,5 @@
 import Gradient from "./Gradient";
 import data from "../data.json";
-import { Toaster } from "react-hot-toast";
 
 export default function Gradients() {
   return (
@@ -8,7 +7,6 @@ export default function Gradients() {
       {data.colors.map((d) => (
         <Gradient code={d} key={d} />
       ))}
-      <Toaster />
     </div>
   );
 }
