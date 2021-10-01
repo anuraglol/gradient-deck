@@ -1,11 +1,8 @@
-* {
-  overflow-x: hidden;
-}
-
-body {
+.main {
   background-color: #fafafa;
   background: url("../public/assests/blackgrit.png");
   background-size: 50%;
+  overflow-x: hidden;
 }
 
 .grainy {
