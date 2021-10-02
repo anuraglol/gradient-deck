@@ -4,6 +4,7 @@ function Meta() {
   return (
     <Head>
       <title>Gradient Deck - Find Awesome Gradients!!</title>
+      <meta name="description" content="" />
       <link
         rel="shortcut icon"
         href="./assests/favicon.ico"
