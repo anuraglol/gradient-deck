@@ -2,23 +2,6 @@
   @apply font-poppins;
 }
 
-body {
-  &::-webkit-scrollbar {
-    border-radius: 1rem;
-    width: 0.5rem;
-  }
-
-  &::-webkit-scrollbar-track {
-    border-radius: 1rem;
-    background: #000;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background: #ffc600;
-    border-radius: 1rem;
-  }
-}
-
 .main {
   background-color: #fafafa;
   background: url("../public/assests/blackgrit.png");

@@ -28,21 +28,20 @@ export default function Header() {
       </motion.div>
 
       {/* auth component */}
-      <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-        <SignedOut>
-          <div className="grid place-items-center p-1 bg-[#020202] text-white font-poppins font-medium rounded hover:drop-shadow-md md:p-2 sm:w-24 lg:w-28 lg:p-3">
-            <a href="/sign-in" className="flex flex-row items-center">
-              <GoSignIn />
-              <span className="hidden sm:inline sm:pl-1 lg:pl-2 xl:pl-3">
-                Sign In
-              </span>
-            </a>
-          </div>
-        </SignedOut>
-        <SignedIn>
-          <UserButton />
-        </SignedIn>
-      </motion.div>
+
+      <SignedOut>
+        <div className="grid place-items-center p-1 bg-[#020202] text-white font-poppins font-medium rounded hover:drop-shadow-md md:p-2 sm:w-24 lg:w-28 lg:p-3">
+          <a href="/sign-in" className="flex flex-row items-center">
+            <GoSignIn />
+            <span className="hidden sm:inline sm:pl-1 lg:pl-2 xl:pl-3">
+              Sign In
+            </span>
+          </a>
+        </div>
+      </SignedOut>
+      <SignedIn>
+        <UserButton />
+      </SignedIn>
     </div>
   );
 }

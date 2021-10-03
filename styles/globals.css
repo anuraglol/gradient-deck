@@ -22,19 +22,4 @@
   background-image: url("../public/assests/blackgrit.png");
   background-size: 50%;
 }
-
-body::-webkit-scrollbar {
-  border-radius: 1rem;
-  width: 0.5rem;
-}
-
-body::-webkit-scrollbar-track {
-  border-radius: 1rem;
-  background: #000;
-}
-
-body::-webkit-scrollbar-thumb {
-  background: #ffc600;
-  border-radius: 1rem;
-}
 /*# sourceMappingURL=globals.css.map */
