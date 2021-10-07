@@ -7,6 +7,7 @@ import {
   SignedOut,
 } from "@clerk/clerk-react";
 import { useRouter } from "next/router";
+import { useUser } from "@clerk/clerk-react";
 
 const publicPgaes = ["/", "/sign-in/[[...index]]", "/sign-up/[[...index]]"];
 
