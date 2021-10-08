@@ -1,7 +1,5 @@
 import { RiTwitterLine } from "react-icons/ri";
-import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 import { motion } from "framer-motion";
-import { GoSignIn } from "react-icons/go";
 
 export default function Header() {
   return (
@@ -26,22 +24,6 @@ export default function Header() {
           </a>
         </p>
       </motion.div>
-
-      {/* auth component */}
-
-      <SignedOut>
-        <div className="grid place-items-center p-1 bg-[#020202] text-white font-poppins font-medium rounded hover:drop-shadow-xl md:p-2 sm:w-24 lg:w-28 lg:p-3">
-          <a href="/sign-in" className="flex flex-row items-center">
-            <GoSignIn />
-            <span className="hidden sm:inline sm:pl-1 lg:pl-2 xl:pl-3">
-              Sign In
-            </span>
-          </a>
-        </div>
-      </SignedOut>
-      <SignedIn>
-        <UserButton />
-      </SignedIn>
     </div>
   );
 }
