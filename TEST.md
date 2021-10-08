@@ -10,25 +10,25 @@
 
 <h2>Features:</h2>
 <h3><li>Curated list of awesome gradients</li></h3>
-<h3><li>Copy gradients</li></h3>
-<h3><li>Open Source</li></h3>
+<h3><li>Copy gradient CSS Code</li></h3>
+<h3><li>PWA</li></h3>
 <h3><li>Fully Responsive 💻</li></h3>
+<h3><li>Open Source</li></h3>
 
 <h2>⚙ How it's made?</h2>
-<h3>Next JS</h3>
-<h3>Tailwind CSS</h3>
-<h3>Firebase (for authentication)</h3>
-<h3>react-firebase-hooks</h3>
-<h3>react-hot-toast</h3>
-<h3>Material UI</h3>
-<h3>react-icons</h3>
+<h3><li>Next JS</li></h3>
+<h3><li>Tailwind CSS</li></h3>
+<h3><li>react-hot-toast</li></h3>
+<h3><li>Material UI</li></h3>
+<h3><li>react-icons</li></h3>
+<h3><li>Framer Motion</li></h3>
 
 <h2>Cloning/Installation Steps:</h2>
 
 <h3>Clone the repo</h3>
 
 ```
-git clone https://github.com/kr-anurag/Gradient
+git clone https://github.com/kr-anurag/gradient-deck
 ```
 
 <h3>Change the directory</h3>
@@ -47,6 +47,9 @@ npm install
 
 ```
 npm run dev
+
+// or if you use yarn
+yarn dev
 ```
 
 <h2>Contributing:</h2>
