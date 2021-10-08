@@ -4,6 +4,7 @@ function Meta() {
   return (
     <Head>
       <title>Gradient Deck - Find Awesome Gradients!!</title>
+      <link rel="manifest" href="./manifest.json" />
       <meta
         name="description"
         content="Gradient-Deck, a place to find curated awesome gradients!!"
