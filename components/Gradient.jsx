@@ -1,5 +1,5 @@
 import { FiCopy } from "react-icons/fi";
-import { Button } from "@mui/material";
+import { Button, Tooltip } from "@mui/material";
 import toast from "react-hot-toast";
 import html2canvas from "html2canvas";
 import { AiOutlineCloudDownload } from "react-icons/ai";
@@ -42,14 +42,21 @@ export default function Gradient(props) {
 
       <div className="grid grid-cols-2">
         <Button onClick={copyText}>
-          <FiCopy size="25" className="text-[#020202]" />
+          <Tooltip title="Copy Gradient CSS Code">
+            <FiCopy size="25" className="text-[#020202]" />
+          </Tooltip>
         </Button>
         <Button onClick={download}>
-          <AiOutlineCloudDownload size="25" className="text-[#020202]" />
+          <Tooltip title="Download as Image">
+            <AiOutlineCloudDownload size="25" className="text-[#020202]" />
+          </Tooltip>
         </Button>
-        <a href="" className="hidden link" download="gradient" target="_blank">
-          
-        </a>
+        <a
+          href=""
+          className="hidden link"
+          download="gradient"
+          target="_blank"
+        ></a>
       </div>
     </div>
   );
