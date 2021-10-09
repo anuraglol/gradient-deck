@@ -1,6 +1,8 @@
 import { FiCopy } from "react-icons/fi";
 import { Button } from "@mui/material";
 import toast from "react-hot-toast";
+import html2canvas from "html2canvas";
+import { AiOutlineCloudDownload } from "react-icons/ai";
 
 export default function Gradient(props) {
   const copyText = () => {
@@ -8,12 +10,27 @@ export default function Gradient(props) {
     navigator.clipboard.writeText(props.code);
   };
 
+  const download = () => {
+    // toast.loading('Downloading!!')
+
+    let divToDisplay = document.querySelector(".gradient");
+    let link = document.querySelector(".link");
+
+    html2canvas(divToDisplay).then(function (canvas) {
+      const divImage = canvas.toDataURL("image/png");
+
+      link.setAttribute("href", divImage);
+      link.click();
+      console.log(divImage);
+    });
+  };
+
   return (
     <div className="grid justify-center">
       <div>
         <Button variant="text" onClick={copyText}>
-          <div className="m-2 p-5 grainy w-52 h-52 rounded shadow-sm flex flex-col justify-center cursor-pointer hover:shadow-md"> 
-              <div
+          <div className="m-2 p-5 grainy w-52 h-52 rounded shadow-sm flex flex-col justify-center cursor-pointer hover:shadow-md">
+            <div
               className="gradient p-16 rounded"
               style={{
                 background: props.code,
@@ -22,10 +39,17 @@ export default function Gradient(props) {
           </div>
         </Button>
       </div>
-      <div className="grid grid-cols-1">
-        <Button>
-          <FiCopy size="25" className="text-[#020202]" onClick={copyText} />
+
+      <div className="grid grid-cols-2">
+        <Button onClick={copyText}>
+          <FiCopy size="25" className="text-[#020202]" />
         </Button>
+        <Button onClick={download}>
+          <AiOutlineCloudDownload size="25" className="text-[#020202]" />
+        </Button>
+        <a href="" className="hidden link" download="gradient" target="_blank">
+          
+        </a>
       </div>
     </div>
   );
