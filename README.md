@@ -1,32 +1,78 @@
-# Note: This is currently in development...
+<h2 align="center"> 🌈 Gradient Deck - Find Awesome Gradients 🌈 </h2>
 
+<img src="./blackgrit.png" alt="">
+<h3 align="center"><a href="#">Try it Out</a></h3>
 
-# Next.js + Tailwind CSS Example
+<h2>💡 What is Gradient Deck?</h2>
+<h3>
+    🔥 Gradient Deck is a tool made by <a href="#">Anurag</a> for developers and designers to find awesome gradients!!
+</h3>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<h2>Features:</h2>
+<h3><li>Curated list of awesome gradients</li></h3>
+<h3><li>Copy gradient CSS Code</li></h3>
+<h3><li>PWA</li></h3>
+<h3><li>Fully Responsive 💻</li></h3>
+<h3><li>Open Source</li></h3>
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+<h2>⚙ How it's made?</h2>
+<h3><li>Next JS</li></h3>
+<h3><li>Tailwind CSS</li></h3>
+<h3><li>react-hot-toast</li></h3>
+<h3><li>Material UI</li></h3>
+<h3><li>react-icons</li></h3>
+<h3><li>Framer Motion</li></h3>
 
-## Preview
+<h2>Cloning/Installation Steps:</h2>
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+<h3>Clone the repo</h3>
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+```
+git clone https://github.com/kr-anurag/gradient-deck
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+<h3>Change the directory</h3>
+
+```
+cd gradient-deck
+```
+
+<h3>Install the required modules</h3>
+
+```
+npm install
+```
+
+<h3>Run the app</h3>
+
+```
+npm run dev
+
+// or if you use yarn
+yarn dev
+```
+
+<h2>Contributing:</h2>
+
+<h3>Head over to the <a href="#">data.json</a> file and add the desired gradient:</h3>
+
+> Make sure to add the required fields in the below form:
+
+```
+{
+  "colors": [
+    "linear-gradient(180deg, #d309e1 0%, rgb(156, 26, 255) 100%)"
+  ]
+}
+```
+
+<h3>Make a PR</h3>
+
+<h3>There you go!! That's it!</h3>
+
+<h2>About Me:</h2>
+<h3>Hey👋🏻, I'm Anurag, a 14 y/o developer based in India</h3>
+
+<h2>Connect with me:</h2>
+<a href="#">Twitter</a> <br>
+<a href="#">Github</a>
