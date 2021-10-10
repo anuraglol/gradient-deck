@@ -54,7 +54,7 @@ yarn dev
 
 <h2>Contributing:</h2>
 
-<h3>Head over to the <a href="#">data.json</a> file and add the desired gradient:</h3>
+<h3>Head over to the <kbd>data.json</kbd> file and add the desired gradient:</h3>
 
 > Make sure to add the required fields in the below form:
 
