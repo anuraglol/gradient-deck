@@ -11,7 +11,7 @@ export default function Gradient(props) {
   };
 
   const download = () => {
-    // toast.loading('Downloading!!')
+    toast.loading("Downloading!!");
 
     let divToDisplay = document.querySelector(".gradient");
     let link = document.querySelector(".link");
@@ -41,16 +41,17 @@ export default function Gradient(props) {
       </div>
 
       <div className="grid grid-cols-2">
-        <Button onClick={copyText}>
-          <Tooltip title="Copy Gradient CSS Code">
+        <Tooltip title="Copy CSS Code">
+          <Button onClick={copyText}>
             <FiCopy size="25" className="text-[#020202]" />
-          </Tooltip>
-        </Button>
-        <Button onClick={download}>
-          <Tooltip title="Download as Image">
+          </Button>
+        </Tooltip>
+
+        <Tooltip title="Download as Image">
+          <Button onClick={download}>
             <AiOutlineCloudDownload size="25" className="text-[#020202]" />
-          </Tooltip>
-        </Button>
+          </Button>
+        </Tooltip>
         <a
           href=""
           className="hidden link"
