@@ -11,7 +11,7 @@ export default function Gradient(props) {
   };
 
   const download = () => {
-    toast.loading("Downloading!!");
+    toast.success("Downloaded!!");
 
     let divToDisplay = document.querySelector(".gradient");
     let link = document.querySelector(".link");

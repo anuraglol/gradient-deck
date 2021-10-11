@@ -24,10 +24,7 @@ function Meta() {
         rel="stylesheet"
       />
 
-      <link
-        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap"
-        rel="stylesheet"
-      ></link>
+      <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,900,900italic" rel="stylesheet" />
     </Head>
   );
 }
