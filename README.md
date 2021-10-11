@@ -76,5 +76,5 @@ yarn dev
 <h3>Hey👋🏻, I'm Anurag, a 14 y/o developer based in India</h3>
 
 <h2>Connect with me:</h2>
-<a href="#">Twitter</a> <br>
-<a href="#">Github</a>
+<a href="https://twitter.com/kr_anurag_">Twitter</a> <br>
+<a href="https://github.com/kr-anurag">Github</a>
