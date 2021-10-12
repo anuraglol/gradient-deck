@@ -1,6 +1,7 @@
 <h2 align="center"> 🌈 Gradient Deck - Find Awesome Gradients 🌈 </h2>
 
-<p align='center'><img src='./public/assests/scrnli_10_12_2021_8-56-42%20AM.png' /></p>
+<p align='center'>
+    <a href="https://gradient-deck.vercel.app/"><img src='./public/assests/scrnli_10_12_2021_8-56-42%20AM.png' /></a></p>
 
 <img src="./public/assests/screencapture-gradient-deck-kranurag24-repl-co-2021-10-12-12_22_18.png" alt="">
 <h3 align="center"><a href="https://gradient-deck.vercel.app/">Try it Out</a></h3>
