@@ -1,12 +1,13 @@
-import { Meta, Gradients, Header } from "../components";
+import { Meta, Gradients, Header, Home } from "../components";
 import { Toaster } from "react-hot-toast";
 
-export default function Home() {
+export default function App() {
   return (
     <div className="h-screen w-screen main">
-      <Toaster position="bottom-left"/>
+      <Toaster position="bottom-left" />
       <Meta />
       <Header />
+      <Home />
       <Gradients />
     </div>
   );
