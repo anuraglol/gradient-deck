@@ -21,7 +21,6 @@ export default function Gradient(props) {
 
       link.setAttribute("href", divImage);
       link.click();
-      console.log(divImage);
     });
   };
 
