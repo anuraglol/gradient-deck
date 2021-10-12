@@ -3,7 +3,7 @@
 <p align='center'><img src='./public/assests/scrnli_10_12_2021_8-56-42%20AM.png' /></p>
 
 <img src="./public/assests/screencapture-gradient-deck-kranurag24-repl-co-2021-10-12-12_22_18.png" alt="">
-<h3 align="center"><a href="#">Try it Out</a></h3>
+<h3 align="center"><a href="https://gradient-deck.vercel.app/">Try it Out</a></h3>
 
 <h2>💡 What is Gradient Deck?</h2>
 <h3>
