@@ -28,9 +28,9 @@ export default function Gradient(props) {
     <div className="grid justify-center">
       <div>
         <Button variant="text" onClick={copyText}>
-          <div className="m-2 p-5 grainy w-52 h-52 rounded shadow-sm flex flex-col justify-center cursor-pointer hover:shadow-md">
+          <div className="m-2 p-5 grainy w-60 h-60 rounded shadow-sm flex flex-col justify-center cursor-pointer hover:shadow-md">
             <div
-              className="gradient p-16 rounded"
+              className="gradient py-20 px-24 rounded"
               style={{
                 background: props.code,
               }}
