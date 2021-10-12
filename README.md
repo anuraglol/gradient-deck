@@ -1,5 +1,7 @@
 <h2 align="center"> 🌈 Gradient Deck - Find Awesome Gradients 🌈 </h2>
 
+<p align='center'><img src='./public/assests/scrnli_10_12_2021_8-56-42%20AM.png' /></p>
+
 <img src="./blackgrit.png" alt="">
 <h3 align="center"><a href="#">Try it Out</a></h3>
 
