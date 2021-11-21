@@ -25,6 +25,12 @@ function Meta() {
       />
 
       <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,900,900italic" rel="stylesheet" />
+
+      <meta property="og:title" content="Gradient Deck - Find awesome Gradients!" />
+
+      <meta property="og:image" content="https://raw.githubusercontent.com/kr-anurag/gradient-deck/main/public/assests/screencapture-gradient-deck-kranurag24-repl-co-2021-10-12-12_22_18.png" />
+
+      <meta property="og:url" content="https://gradient-deck.vercel.app" />
     </Head>
   );
 }
