@@ -6,7 +6,7 @@ import { AiOutlineCloudDownload } from "react-icons/ai";
 
 export default function Gradient(props) {
   const copyText = () => {
-    toast.success("Copied to Clipbaord!!");
+    toast.success("Copied to Clipboard!!");
     navigator.clipboard.writeText(props.code);
   };
 
