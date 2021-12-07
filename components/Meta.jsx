@@ -31,6 +31,8 @@ function Meta() {
       <meta property="og:image" content="https://raw.githubusercontent.com/kr-anurag/gradient-deck/main/public/assests/screencapture-gradient-deck-kranurag24-repl-co-2021-10-12-12_22_18.png" />
 
       <meta property="og:url" content="https://gradient-deck.vercel.app" />
+    
+      <meta name="google-site-verification" content="n-n8uTu7y7ReTvsQXzTVZvf3RzSrXGoGpeyqDF7UVOM" />
     </Head>
   );
 }
