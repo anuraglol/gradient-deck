@@ -13,7 +13,6 @@ export default function Home() {
           {" "}
           Add your own{" "}
           <a
-            color="blue"
             href="https://github.com/kr-anurag/gradient-deck/edit/main/data.json"
             target={"_blank"}
           >
