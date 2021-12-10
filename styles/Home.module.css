@@ -1,5 +1,9 @@
 .Home {
-  background: linear-gradient(90deg, hsla(51, 76%, 63%, 1) 0%, hsla(37, 59%, 51%, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    hsla(51, 76%, 63%, 1) 0%,
+    hsla(37, 59%, 51%, 1) 100%
+  );
   @apply p-6;
   @apply text-center;
   @apply text-2xl;
