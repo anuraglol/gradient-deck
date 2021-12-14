@@ -1,6 +1,6 @@
 <h2 align="center"> 🌈 Gradient Deck - Find Awesome Gradients 🌈 </h2>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <p align='center'>
@@ -96,6 +96,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://twitter.com/kr_anurag_"><img src="https://avatars.githubusercontent.com/u/77309809?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anurag</b></sub></a><br /><a href="https://github.com/kr-anurag/gradient-deck/commits?author=kr-anurag" title="Documentation">📖</a> <a href="https://github.com/kr-anurag/gradient-deck/commits?author=kr-anurag" title="Code">💻</a></td>
     <td align="center"><a href="https://carrotfarmer.github.io"><img src="https://avatars.githubusercontent.com/u/66675022?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dhruva Srinivas</b></sub></a><br /><a href="https://github.com/kr-anurag/gradient-deck/commits?author=carrotfarmer" title="Code">💻</a></td>
+    <td align="center"><a href="https://krishguptadev.tech"><img src="https://avatars.githubusercontent.com/u/91655303?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Krish Gupta</b></sub></a><br /><a href="https://github.com/kr-anurag/gradient-deck/commits?author=krishguptadev" title="Documentation">📖</a></td>
   </tr>
 </table>
 
