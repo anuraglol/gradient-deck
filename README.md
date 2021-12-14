@@ -94,7 +94,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://twitter.com/kr_anurag_"><img src="https://avatars.githubusercontent.com/u/77309809?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anurag</b></sub></a><br /><a href="https://github.com/kr-anurag/gradient-deck/commits?author=kr-anurag" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://twitter.com/kr_anurag_"><img src="https://avatars.githubusercontent.com/u/77309809?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anurag</b></sub></a><br /><a href="https://github.com/kr-anurag/gradient-deck/commits?author=kr-anurag" title="Documentation">📖</a> <a href="https://github.com/kr-anurag/gradient-deck/commits?author=kr-anurag" title="Code">💻</a></td>
   </tr>
 </table>
 
