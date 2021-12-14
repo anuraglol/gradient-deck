@@ -14,6 +14,15 @@
         "doc",
         "code"
       ]
+    },
+    {
+      "login": "carrotfarmer",
+      "name": "Dhruva Srinivas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66675022?v=4",
+      "profile": "https://carrotfarmer.github.io",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
